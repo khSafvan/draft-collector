@@ -8,5 +8,5 @@ export default function App() {
     extensions: [StarterKit],
   });
 
-  return <EditorContent editor={editor} />;
+  return <div>Here</div>;
 }
