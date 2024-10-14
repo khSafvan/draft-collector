@@ -1,0 +1,43 @@
+.stoneBox {
+  background-color: rgb(230, 228, 213);
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.headerBox {
+  background-color: rgb(230, 228, 213);
+  color: rgb(89, 121, 116);
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0px 0px 8px 8px;
+  padding: 8px;
+  gap: 8px;
+}
+.preheader {
+  background-color: rgb(18, 127, 150);
+  border-radius: 0px 8px 0px 0px;
+}
+.postheader {
+  background-color: rgb(18, 127, 150);
+  border-radius: 8px 0px 0px 0px;
+}
+
+.whiteHeaderBox {
+  background-color: rgb(230, 228, 213);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  align-content: center;
+  justify-content: center;
+}
+
+.cyanBox {
+  background-color: rgb(18, 127, 150);
+  width: 100%;
+  margin: 14px;
+  border-radius: 8px;
+}
